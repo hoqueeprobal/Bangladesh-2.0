@@ -69,3 +69,35 @@ nav button {
   font-size: 18px;
   font-weight: 600;
 }
+
+/*  Banner Section */
+body > section {
+  margin: 80px 0px;
+}
+.banner {
+  display: flex;
+  background-color: #c6e4d6;
+  padding: 80px 60px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  border-radius: 24px;
+}
+.banner .banner_title {
+  font-size: 24px;
+}
+.banner .banner_dec {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 16px 0px;
+}
+.banner button {
+  background-color: #006a50;
+  color: white;
+  border-radius: 8px;
+  padding: 17px 34px;
+  border: none;
+}
+.banner img {
+  max-width: 420px;
+}
