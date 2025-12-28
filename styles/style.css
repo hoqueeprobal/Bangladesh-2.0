@@ -133,6 +133,114 @@ footer>ul li{
   height: 50px;
 }
 
+
+/* The Vision of Future */
+
+.vision_dec {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  text-align: justify;
+}
+.vision_container {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+.vision_card1 {
+  padding: 32px;
+  border-radius: 16px;
+  background-color: rgba(84, 144, 245, 0.2);
+}
+.vision_card2 {
+  padding: 32px;
+  border-radius: 16px;
+  background-color: #c6e4d6;
+}
+.vision_card3 {
+  padding: 32px;
+  border-radius: 16px;
+  background-color: #f7ebcf;
+}
+.vision_card1 button {
+  padding: 11px 20px;
+  border-radius: 8px;
+  background-color: #5490f5;
+  border: none;
+  color: white;
+}
+.vision_card2 button {
+  padding: 11px 20px;
+  border-radius: 8px;
+  background-color: #09a15c;
+  border: none;
+  color: white;
+}
+.vision_card3 button {
+  padding: 11px 20px;
+  border-radius: 8px;
+  background-color: #ffc239;
+  border: none;
+  color: white;
+}
+.vision_container img {
+  width: 50px;
+  height: 50px;
+}
+
+.quote {
+  background-color: white;
+  padding: 48px 24px;
+  margin: 32px 0px;
+  border-radius: 16px;
+  background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: 25px 40px;
+}
+
+/* Your Opinion Matters */
+.table_container{
+  background-color: white;
+  padding: 32px;
+  border-radius: 16px;
+  font-weight: bold;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.table_header{
+  display: flex;
+  justify-content: space-between;
+}
+.first_table_row{
+  background-color: #C6E4D6;
+}
+.table_header h1{
+  font-size: 20px;
+  font-weight: 600;
+}
+.table_container td{
+  font-size: 16px;
+  font-weight: 600;
+}
+table .btn_center{
+  padding: 10px 14px;
+  border-radius: 4px;
+  background-color: #C6E4D6;
+  font-weight: bold;
+}
+table .select_center{
+  text-align: center;
+  padding: 24px;
+}
+.btn_center button{
+  padding: 12px 16px;
+}
+td,th{
+  border:  1px solid rgba(14, 14, 14, 0.15);
+  padding: 10px;
+}
+
 footer>ul{
     display: flex;
     justify-content: center;
