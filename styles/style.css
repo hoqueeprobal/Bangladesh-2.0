@@ -207,6 +207,17 @@ body > section {
   height: 50px;
 }
 
+/* The Vision of Future Cards Hover */
+.vision_container > div {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.vision_container > div:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
 .quote {
   background-color: white;
   padding: 48px 24px;
