@@ -354,6 +354,18 @@ td,th{
   text-align: center;
 }
 
+/* Subscribe Newsletter Section Hover */
+.newsletter {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.newsletter:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 15px 30px rgba(0, 106, 80, 0.3);
+}
+
+
 .input_div{
   display:flex;
   flex-direction: row;
@@ -377,6 +389,20 @@ td,th{
   color: white;
 }
 
+.input_btn {
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input_btn:hover {
+  background-color: #004d3d; /* Darker green */
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 106, 80, 0.4);
+}
+
+.input_text:hover {
+  border: 2px solid #006a50;
+}
+
 /* footer section */
 footer{
     background-color: white;
@@ -395,4 +421,14 @@ footer>ul{
 footer>ul li{
     list-style-type: none;
     
+}
+
+footer>ul li a img {
+  transition: transform 0.3s ease, filter 0.3s ease;
+  cursor: pointer;
+}
+
+footer>ul li a img:hover {
+  transform: scale(1.2);
+  filter: brightness(1.2);
 }
