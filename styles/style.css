@@ -153,6 +153,36 @@ body > section {
   height: 50px;
 }
 
+/* Pillars Hover Effect with Color Change */
+.pillar .pillar_card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+}
+
+/* Specific background colors on hover for each card */
+.pillar .pillar_card:nth-child(1):hover {
+  background-color: #d1f3e0; /* light green */
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 12px 25px rgba(0, 106, 80, 0.25);
+}
+
+.pillar .pillar_card:nth-child(2):hover {
+  background-color: #cce7ff; /* light blue */
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 12px 25px rgba(0, 106, 80, 0.25);
+}
+
+.pillar .pillar_card:nth-child(3):hover {
+  background-color: #fff3cc; /* light yellow */
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 12px 25px rgba(0, 106, 80, 0.25);
+}
+
+.pillar .pillar_card:nth-child(4):hover {
+  background-color: #fddede; /* light red/pink */
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 12px 25px rgba(0, 106, 80, 0.25);
+}
 
 /* The Vision of Future */
 
