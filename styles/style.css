@@ -294,6 +294,19 @@ td,th{
   border: none;
 }
 
+/* Read More Button Hover */
+.news_card button {
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.news_card button:hover {
+  background-color: #004d3d; /* Darker green */
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 106, 80, 0.4);
+}
+
+
 /* Donate Today */
 .donate {
   text-align: center;
@@ -337,6 +350,31 @@ td,th{
     text-align: center;
     margin: 32px 0px;
     border: none;
+}
+
+/* Donate Now Button Hover */
+.donate button {
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.donate button:hover {
+  background-color: #004d3d; /* Darker green */
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 106, 80, 0.4);
+}
+
+/* Taka Amount Hover Effect */
+.donate .taka h1 {
+  transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.donate .taka h1:hover {
+  transform: translateY(-4px) scale(1.05);
+  background-color: #006a50; /* Darker green */
+  color: white;
+  box-shadow: 0 8px 20px rgba(0, 106, 80, 0.4);
 }
 
 /* Subscribe Newsletter Section */
