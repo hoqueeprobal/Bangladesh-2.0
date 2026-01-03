@@ -511,3 +511,197 @@ footer>ul li a img:hover {
   transform: scale(1.2);
   filter: brightness(1.2);
 }
+
+@media (max-width: 768px) {
+
+  .main_container {
+    margin: 10px 20px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  nav h1 {
+    font-size: 26px;
+  }
+
+  nav button {
+    width: 100%;
+    max-width: 180px;
+    padding: 12px 20px;
+    font-size: 16px;
+  }
+
+  .banner {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+    gap: 20px;
+  }
+
+  .banner .banner_title {
+    font-size: 20px;
+  }
+
+  .banner .banner_dec {
+    font-size: 36px;
+  }
+
+  .banner img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .banner button {
+    padding: 14px 28px;
+  }
+
+  .pillar .pillar_container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .pillar .pillar_card {
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+  }
+
+  .pillar .pillar_card img {
+    margin: 0 auto 10px;
+  }
+
+  .vision_container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .vision_container > div {
+    width: 100%;
+    text-align: center;
+  }
+
+  .vision_container img {
+    margin-bottom: 10px;
+  }
+
+  .quote {
+    padding: 30px 20px;
+    background-size: contain;
+    background-position: center left;
+  }
+
+  .table_container {
+    padding: 20px;
+    overflow-x: auto;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  .input_btn,
+  .btn_center button {
+    padding: 10px 20px;
+  }
+
+  .news_card {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+    gap: 20px;
+  }
+
+  .news_card_img {
+    width: 100%;
+    height: auto;
+  }
+
+  .news_card h1 {
+    font-size: 20px;
+  }
+
+  .news_card button {
+    width: 100%;
+    max-width: 180px;
+  }
+
+  .donate {
+    padding: 0 20px;
+  }
+
+  .donate_container {
+    width: 100%;
+    gap: 20px;
+  }
+
+  .donate .taka {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .donate .taka h1 {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .input_taka {
+    width: 100%;
+  }
+
+  .donate_input {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 20px 0;
+  }
+
+  .donate button {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+  .newsletter {
+    padding: 40px 20px;
+  }
+
+  .input_div {
+    flex-direction: column;
+    gap: 12px;
+    align-items: center; 
+  }
+
+  .input_div .input_text {
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px 20px;
+  }
+
+  .input_btn {
+    width: auto;         
+    min-width: 160px;    
+    padding: 15px 30px; 
+    font-size: 16px;
+    border-radius: 10px; 
+    align-self: center; 
+  }
+
+  footer {
+    padding: 20px;
+  }
+
+  footer>ul {
+    flex-direction: column;
+    gap: 15px;
+    margin: 0;
+  }
+
+  footer>ul li a img {
+    width: 40px;
+    height: 40px;
+  }
+}
